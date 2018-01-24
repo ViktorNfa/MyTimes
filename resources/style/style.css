@@ -1,5 +1,10 @@
-body{
-  display: block;
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
 }
 
 header {
@@ -79,6 +84,7 @@ a {
 .image-content {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   height: 300px;
   margin-top: 15px;
   font-family: Georgia;
@@ -105,6 +111,10 @@ a {
   margin-top: 0;
   font-size: 40px;
   text-align: left;
+}
+
+.lead-story .image-content span {
+  margin-left: 20px;
 }
 
 .fall-canceled.image-content {
